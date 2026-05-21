@@ -1,0 +1,4 @@
+pillow
+pytesseract
+PyPDF2
+nltk

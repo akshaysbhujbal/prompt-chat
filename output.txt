@@ -1,0 +1,1771 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NLP  Lab MRCET  CAMPUS  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NLP  Lab MRCET  CAMPUS  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NLP  Lab MRCET  CAMPUS  
+NLP  Lab MRCET  CAMPUS    
+ 
+ 
+NATURAL LANGUAGE PROCESSING  
+LAB  MANUAL  
+ 
+ 
+B.TECH  
+ 
+(IV YEAR – I SEM)  
+(2024 -25) 
+ 
+ 
+ 
+DEPARTMENT OF COMPUTATIONAL INTELLIGENCE  
+(CSE -AIML,  AIML, AI&DS)  
+ 
+MALLAREDDYCOLLEGEOFENGINEERING&TECHNOLOGY  
+(AutonomousInstitution –UGC,Govt.ofIndia)  
+ 
+Recognizedunder  2(f)and12(B)ofUGCACT1956  
+(AffiliatedtoJNTUH,Hyderabad,ApprovedbyAICTE -AccreditedbyNBA&NAAC –‘A’Grade -ISO9001:2015Certified)  
+Maisammaguda,  Dhulapally(PostVia.Hakimpet),Secunderabad –500100,TelanganaState,India  
+NLP  Lab MRCET  CAMPUS   PROGRAMOUTCOMES(POs)  
+ 
+EngineeringGraduateswillbeableto:  
+ 
+1. Engineeringknowledge :Applytheknowledgeofmathematics,science,engineeringfundamentals,  
+and an engineering specialization  tothesolutionof complex e ngineeringproblems.  
+2. Problem  analysis : Identify,formulate,reviewresearchliterature,and  analyze  
+complexengineeringproblemsreachingsubstantiatedconclusionsusingfirstprinciplesofmathemat  
+ics,naturalsciences,andengineering  sciences.  
+3. Design  / development  of solutions:  Design  solutions  for complex  engineering  problems  
+anddesignsystemcomponentsorprocessesthatmeetthespecifiedneedswithappropriateconsiderati  
+on for the public  health  and safety,andthe cultural,  societal,  and environmentalconsiderations.  
+4. Conduct  investigations  of complex  problems : Use research -based  knowledge  and 
+researchmethods including design of experiments, analysis and interpretation of data, and  
+synthesis  ofthe  informationto providevalidconclusions.  
+5. Modern  tool usage : Create,  select,  and apply appropriate  techniques,  resources,  and 
+modernengineering and IT tools including prediction and modeling to complex engineering  
+activitieswithan  understandingofthelimitations.  
+6. The engineer  and society : Apply  reasoning  informed  by the contextual  knowledge  to 
+assesssocietal, health, safety, legal and cultural issues and the consequent responsibilities  
+relevant  tothe professionalengineeringpractice.  
+7. Environment  and sustainability : Understand  theimpactofthe  professional  
+engineeringsolutions in societal and environmental contexts, and demonstrate the knowledge  
+of, and needforsustainabledevelopment.  
+8. Ethics :Applyethicalprinciplesandcommittoprofessionalethicsandresponsibilitiesandnorms  
+oftheengineeringpractice.  
+9. Individualandteamwork :Functioneffectivelyasanindivi dual,andasamemberorleaderindivers  
+eteams,andin  multidisciplinarysettings.  
+10.  Communication :Communicateeffectivelyoncomplexengineeringactivitieswiththeengineering  
+community  and with society  at large,  such as, being  able to comprehend  and 
+writeeffectivereportsanddesigndocumentation,makeeffectivepresentations,  
+andgiveandreceiveclearinstructions.  
+11.  Projectmanagementandfinance :Demonstrateknowledgeandunderstandingoftheengineering  
+and management  principles  and apply  these  to one’s  own work,  as a member  andleader  in 
+ateam,tomanageprojects  andin multidisciplinaryenvironments.  
+12. Life- long learning : Recognize  the need  for, and have  the preparation  and ability  to engage  
+inindependentand  life-longlearningin thebroadestcontextoftechnological  change.  NLP  Lab MRCET  CAMPUS   LabObjectives:  
+ 
+1. Be able to discuss the  current  and likely  future  performance  of several  NLP  applications.  
+2. Be able to describe briefly a fundamental technique for processing language for several  
+subtask s, such as morphological  processing.  
+3. Implement  parsing, word sense  disambiguation  and etc. 
+4. Understand  how these  techniques  draw  on and relate  to other  areas of  computer  science  . 
+5. Understand  the basic  principles of  designing  and running  an NLP  experiment.  
+ 
+LabOutcomes:  
+Uponsuccessfulcompletionofthiscourse,thestudentswillbeableto:  
+ 
+1. Student will  be able to implement  LSI,NER.  
+2. Student  will be able  to implement  TD-IDF method  and Ngram models  
+3. Develop a  Part of speech  tagger.  
+4. Student can  able classify  the text based  on part of speech  tagger.  
+5. Student  can able to implement several  NLP applications.  B.Tech–CSE(Computational  intelligence)  R-20 
+NLP  Lab1  MRCETCAMPUS   
+  
+Introductionaboutlab  
+Systemconfigurationsareasfollows:  
+ Hardware/Software’sinstalled:I ntel®CORE™i3 - 
+3240 CPU@3.40GHZ RAM:4GB/Google  CoLab  or Jupyter  Notebook  or PyCharm  
+or Visual  Studio  Code  
+ Systems  are provided  for students  in the1:1 ratio.  
+ Systemsareassignednumbersandsamesystemisallottedforstudentswhentheydothelab.  
+ AllSystemsareconfiguredinLINUX,itisopensourceandstudentscanuseanydifferentprogr  
+ammingenvironmentsthrough  packageinstallation.  
+ 
+Guidelines  tostudents  
+A. Standardoperatingprocedure  
+a) Explanationontoday’sexperimentbytheconcernedfacultyusingPPTcoveringthefoll  
+owingaspects:  
+1) Nameoftheexperiment  
+2) Aim 
+3) Software/Hardwarerequirements  
+4) Writingthe NLPprogramsbythestudents  in Python  
+WritingoftheexperimentintheObservationBook  
+The studentswillwritethetoday’sexperimentintheObservationbook  
+asperthefollowingformat:  
+a) Nameoftheexperiment  
+b) Aim 
+c) Writingtheprogram  
+d) Viva -VoceQuestionsandAnswers  
+e) Errors  observed(ifany)duringcompilation/execution  
+ 
+ 
+Signature  of the Faculty  B.Tech–CSE(Computational  intelligence)  R-20 
+NLP  Lab1  MRCETCAMPUS   
+  
+ 
+ 
+B. GuideLinestoStudentsinLab  
+ 
+ Studentsarerequiredtocarrytheirlabobservationbookandrecordbookwith  
+Completedexperimentswhileenteringthelab.  
+ Studentsmustusetheequipmentwithcare.Anydamageiscausedstudentisp unishable.  
+ Studentsarenotallowedtousetheircell  phones/pen  drives/CDsinlabs.  
+ StudentsneedtobemaintainproperdresscodealongwithIDCard  
+ Studentsaresupposedtooccupythecomputersallottedtothemandarenotsupposed  
+to talk ormakenoiseinthelab.  
+ Students,aftercompletionofeachexperimenttheyneedtobeupdatedinobservation  
+notesand  sameto beupdated intherecord.  
+ Labrecordsneedtobesubmittedaftercompletionofexperimentandgetitcorrected  
+withtheconcernedlabfaculty.  
+ Ifastudentisabsentforanylab,theyneedtobecomp letedthesameexperimentinthe  
+freetimebeforeattendingnextlab.  
+Stepsto  performexperiments  inthelabbythestudent  
+ 
+Step1: Studentshavetowritethedate,aimandforthatexperiment  
+intheobservationbook. Step2: Studentshavetolistenandunderstandtheexperimentexplainedbyth  
+efacultyandnotedowntheimportantpoints  intheobservationbook.  
+Step3: Studentsneedtowrite procedure/algorithmintheobservationbook.  
+Step4: AnalyzeandDevelop/implementthelogicoftheprogrambythestudentinrespectiveplatform  
+Step5: Afterapprovalof  
+logicoftheexperimentbythefacultythentheexperimenthastobeexecutedonthesystem.  
+Step6: Aftersuccessfulexecutiontheresultsaretobeshowntothefacultyandnotedthesamein  
+theobservationbook.  
+Step7: StudentsneedtoattendtheViva - 
+Voceonthatexperimentandwritethesameintheobservationbook.  
+Step8: Updatethe completedexperimentintherecordandsubmittotheconcernedfacultyin - 
+charge.  B.Tech–CSE(Computational  intelligence)  R-20 
+NLP  Lab1  MRCETCAMPUS   
+  
+ 
+ 
+Instructionstomaintaintherecord  
+ Before  startof  thefirs tlabtheyhaveto  buytherecordandbringtherecordtothelab.  
+ Regularly  (Weekly)  update  the record  after completion  of the experiment  and get 
+itcorrectedwith concerned lab in -charge for continuous evaluation. In case the record is lost  
+inform thesame day  to thefac ulty in charge andget the new  record within 2 days the record  
+has to besubmittedand get it corrected bythefaculty.  
+ If record is not submitted in time or record is not written properly, the evaluation marks  
+(5M)will  bededucted.  
+Awardingthemarksfor daytodayevaluation  
+Totalmarksfordaytodayevaluationis15MarksasperAutonomous(JNTUH).These15Marksaredis  
+tributedas:  
+Regularity  3Marks  
+Programwritten  3Marks  
+Execution&Result  3Marks  
+Viva -Voce  3Marks  
+DressCode  3Marks  
+AllocationofMarksfor  LabInternal  
+Totalmarksforlabinternalare30MarksasperAutonomous(JNTUH.)These3  
+0Marksaredistributedas:  
+Averageof  
+daytodayevaluationmarks:15MarksLabMidexam:1  
+0Marks  
+VIVA&Observation:5Marks  
+ 
+AllocationofMarksforLabExternal  
+TotalmarksforlabInternalandExternalare70Marksasper Autonomous/(JNTUH).These70E  
+xternalLabMarks  aredistributedas:  
+ProgramWritten  30Marks  
+ProgramExecutionandResult  20Marks  
+Viva -Voce  10Marks  
+Record  10Marks  B.Tech–CSE(Computational  intelligence)  R-20 
+NLP  Lab1  MRCETCAMPUS   
+  
+ 
+ 
+C. Generallaboratoryinstructions  
+1. Studentsareadvisedtocometothelaboratoryatleast5minutesbefore(tothestartingtime),thosewhoc  
+omeafter5minuteswillnotbe  allowedintothelab.  
+2. Planyourtaskproperlymuchbeforetothecommencement,comepreparedtothelabwiththesynopsis  
+/ program/experimentdetails.  
+3. Students houldenterintothelaboratorywith:  
+a. Laboratoryobservationnoteswithallthedetails(Problemstatement,Aim,Algorithm,Procedure,Pr  
+ogram,  Expected Output, etc.,)filledin forthe  labsession.  
+b. LaboratoryRecordupdateduptothelastsessionexperimentsandotherutensils(ifany)ne ededin  
+thelab.  
+c. ProperDresscodeandIdentitycard.  
+4. Sign in the laboratory  login  register,  write  the TIME -IN, and occupy  the 
+computersystemallottedtoyou  bythefaculty.  
+5. Execute  your task in the laboratory,  and record  the results  / output  in the labobservation  
+notebook,andgetcertifiedby  theconcernedfaculty.  
+6. All the students  should  be polite  and cooperative  with the laboratory  staff,  mustmaintain  
+thedisciplineanddecencyinthelaboratory.  
+7. Computerlabsareestablishedwithsophisticatedandhighendbrandedsystems,  
+whichshou ldbeutilized  properly.  
+8. Students / Faculty must keep their mobile phones in SWITCHED OFF mode during the  
+labsessions. Misuse of the equipment, misbehaviors with the staff and systems etc., will  
+attractseverepunishment.  
+9. Students  must  take the permission  of the faculty  in case of any urgency  to go out; if 
+anybodyfound loitering outside the lab / class without permission during working hours  
+willbetreatedseriouslyandpunishedappropriately.  
+10. Students should LOG OFF/ SHUT DOWN the computer systembeforehe/she leave s thelab  
+after completing  the task (experiment)  in all aspects.  He/she  must  ensure  the system  / 
+seatiskeptproperly.  
+ 
+ 
+ 
+HeadoftheDepartment  Principal  B.Tech–CSE(Computational  intelligence)  R-20 
+NLP  Lab1  MRCETCAMPUS   
+  
+INDEX  
+ 
+S.No.  Week  Program Name  Page 
+No. 
+1 Week1  a.Write a python program to perform tokenization by word 
+and sentence using nltk.  
+12 b.Write a python program to eliminate stopwords using nltk.  
+c.Write a python program to perform stemming using nltk.  
+2 Week2  a.Write a python program to perform Parts of Speech tagging 
+using nltk.  
+ 19 
+b.Write a python program to perform lemmatization  using 
+nltk. 
+3 Week3  a.Write a python program for chunking using nltk.  
+23 
+b.Write a python program to perform Named Entity 
+Recognition using nltk.  
+4 Week4  a.Write a python program to find Term Frequency and 
+Inverse Document Frequency (TF -IDF).  
+27 b.Write a python program for CYK parsing (Cocke -
+Younger -Kasami Parsing) or Chart Parsing.  
+5 Week5  a. Write a python program to find all unigrams, bigrams and 
+trigrams present in the given corpus.  
+31 b.Write a python program to find the probability of the given 
+statement “This is my cat” by taking the an exmple corpus 
+into consideration.  
+6 Week6  Use the Stanford named Entity recognizer to  
+extract entities from the documents. Use it  
+programmatically and output for each document  
+which named entities it contains and of which  
+type.  35 
+7 Week7  Choose any corpus available on the internet freely.  
+ For the corpus, for each document, count how many  
+times each stop word occurs and find out which are  
+ the most frequently occurring stop words. Further,  
+calculate the term frequency and inverse document  
+frequency as  The motivation behind this is basically to find 
+out how important a document is to a given query. F or e.g.: 
+If the query is say: “The brown crow”. “The” is less 
+important. “Brown” and “crow” are relatively more 
+important. Since “the” is a more common word, its tf will be 
+high. Hence we multiply it by idf, by knowing how common 
+it is to reduce its weight . 37 B.Tech–CSE(Computational  intelligence)  R-20 
+NLP  Lab1  MRCETCAMPUS   
+ 8 Week8  Write the python code to perform sentiment analysis using 
+NLP  39 
+9 Week9  Write the python code to develop Spam Filter using NLP  41 
+10 Week10  Write the python code to detect Fake News using NLP  43 R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page1  |12  
+  
+WEEK -1 Date:  
+ 
+Aim:  a) Write  a python  program  to perform  tokenization  by word  and sentence  using        nltk.  
+Program for sentence tokenization:  
+ import nltk  
+nltk.download('punkt')  # Download the necessary tokenization models  
+ 
+from nltk.tokenize import sent_tokenize  
+ 
+def tokenize_sentences(text):  
+      sentences = sent_tokenize(text)  
+      return sentences  
+ 
+# Example text  
+text = "NLTK is a leading platform for building Python programs to work with human language data. It 
+provides easy -to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a 
+suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic 
+reasoning, wrappers  for industrial -strength NLP libraries, and an active discussion forum."  
+ 
+# Tokenize sentences  
+sentences = tokenize_sentences(text)  
+ 
+# Print tokenized sentences  
+for i, sentence in enumerate(sentences):  
+      print(f"Sentence {i+1}: {sentence}")  
+ 
+Output:  R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |13  
+  
+ 
+ Program for word Tokenization:  
+  
+  
+ import nltk  
+nltk.download('punkt')  # Download the necessary tokenization models  
+ 
+from nltk.tokenize import word_tokenize  
+ 
+def tokenize_words(text):  
+      words = word_tokenize(text)  
+      return words  
+ 
+# Example text  
+text = "NLTK is a leading platform for building Python programs to work with  human language data."  
+ 
+# Tokenize words  
+words = tokenize_words(text)  
+ 
+# Print tokenized words  
+print(words)  
+ 
+ 
+ Output:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |14  
+  
+b.Write a python program to eliminate stopwords using nltk.  
+ 
+ # Stopwords  
+import nltk  
+from nltk.corpus import stopwords  
+from nltk.tokenize import word_tokenize  
+ 
+# Download NLTK stopwords and tokenizer models  
+nltk.download('stopwords')  
+nltk.download('punkt')  
+ 
+def remove_stopwords(text):  
+    # Tokenize the text into words  
+    words = word_tokenize(text)  
+ 
+    # Get English stopwords  
+    english_stopwords = set(stopwords.words('english'))  
+ 
+    # Remove stopwords from the tokenized words  
+    filtered_words = [word for word in words if word.lower() not in english_stopwords]  
+ 
+    # Join the filtered words back into  a single string  
+    filtered_text = ' '.join(filtered_words)  
+ 
+    return filtered_text  
+ 
+# Example text  
+text = "NLTK is a leading platform for building Python programs to work with human language data."  
+ 
+# Remove stopwords  
+filtered_text = remove_stopwords( text) 
+ 
+# Print filtered text  
+print(filtered_text)  
+ 
+Output:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |15  
+  
+ 
+c.Write a python program to perform stemming using nltk.  
+# Stemming  
+import nltk  
+from nltk.stem import PorterStemmer  
+from nltk.tokenize import word_tokenize  
+ 
+# Download NLTK tokenizer and stemmer models  
+nltk.download('punkt')  
+ 
+def stem_text(text):  
+    # Initialize the Porter Stemmer  
+    porter_stemmer = PorterStemmer()  
+    # Tokenize the text into words  
+    words = word_tokenize(text)  
+    # Apply stemming to each word  
+    stemmed_words = [porter_stemmer.stem(word) for word in words]  
+    # Join the stemmed words back into a single string  
+    stemmed_text = ' '.join(stemmed_words)  
+    return stemmed_text  
+ 
+# Example text  
+text = "NLTK is a leading platform for building Pyth on programs to work with human language data."  
+ 
+# Perform stemming  
+stemmed_text = stem_text(text)  
+ 
+# Print stemmed text  
+print(stemmed_text)  
+Output:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |16  
+ Signature of  the faculty  
+ 
+ 
+EXERCISE:  
+ 
+1. Write  a python  program  to perform   tokenization  by word and  sentence   using  Stanza.  
+ 
+2. Write  a python  program  for word t okenization  and sentence  segmentation  using  spaCy.  
+ 
+3.  Write  a python  program  to find all the  stopwords  in the given  corpus  using spaCy.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |17  
+  R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |18  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Signature of  the faculty  
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |19  
+  
+ 
+WEEK -2 Date:  
+ 
+a.Write a python program to perform Parts of Speech tagging  using nltk.  
+ 
+ # Parts of Speech Tagging  
+import nltk  
+from nltk.tokenize import word_tokenize  
+ 
+# Download NLTK tokenizer and POS tagging models  
+nltk.download('punkt')  
+nltk.download('averaged_perceptron_tagger')  
+ 
+def pos_tagging(text):  
+    # Tokenize the text into words  
+    words = word_tokenize(text)  
+ 
+    # Perform POS tagging  
+    tagged_words = nltk.pos_tag(words)  
+ 
+    return tagged_words  
+ 
+# Example text  
+text = "NLTK is a leading platform for building Python programs to work with human language data."  
+ 
+# Perform POS tagging  
+tagged_text = pos_tagging(text)  
+ 
+# Print POS tagged text  
+print(tagged_text)  
+ 
+Output:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |20  
+  
+ 
+b.Write a python program to perform lemmatization using nltk.  
+ 
+ 
+#Lemmatization  
+from nltk.tokenize import word_tokenize  
+from nltk.stem import WordNetLemmatizer  
+ 
+nltk.download('punkt')  
+nltk.download('wordnet')  
+ 
+def lemmatize_text(text):  
+    lemmatizer = WordNetLemmatizer()  
+    tokens = word_tokenize(text)  
+    lemmatized_text = ' '.join([lemmatizer.lemmatize(word) for word in tokens])  
+    return lemmatized_text  
+ 
+text = "The cats are chasi ng mice and playing in the garden"  
+lemmatized_text = lemmatize_text(text)  
+print("Original Text:", text)  
+print("Lemmatized Text:", lemmatized_text)  
+ 
+ 
+Output:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Signature of the Faculty  R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |21  
+  
+ 
+EXERCISE:  
+1. Study and use the Stanford Part of speech tagger on a suitable corpus available freely.  The 
+corpus  should be of decent  size. (Use spaCy and stanza).  
+2. Write  a python program for  lemmatization using  spaCy  and stanza.  
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |22  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |23  
+  
+WEEK -3 Date:  
+ 
+a.Write a python program for chunking using nltk.  
+#Chunking  
+import nltk  
+from nltk.tokenize import word_tokenize  
+from nltk import pos_tag, RegexpParser  
+ 
+ 
+nltk.download('punkt')  
+nltk.download('averaged_perceptron_tagger')  
+ 
+def chunk_sentence(sentence):  
+    words = word_tokenize(sentence)  
+    tagged_words = pos_tag(words)  
+ 
+    # Define grammar for chunkin g 
+    grammar = r"""  
+    NP: {<DT|JJ|NN.*>+}          # Chunk sequences of DT, JJ, NN  
+    PP: {<IN><NP>}                # Chunk prepositions followed by NP  
+    VP: {<VB.*><NP|PP|CLAUSE>+$}  # Chunk verbs and their arguments  
+    CLAUSE: {<NP><VP>}            # Chunk NP, VP pairs  
+    """ 
+    parser = RegexpParser(grammar)  
+    chunked_sentence = parser.parse(tagged_words)  
+ 
+    return chunked_sentence  
+ 
+sentence = "The quick brown fox jumps over the lazy dog"  
+chunked_sentence = chunk_sentence(sentence)  
+print(chunked_sentence)  
+ 
+ 
+ Output:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |24  
+  
+b.Write a python program to perform Named Entity Recognition using nltk.  
+ 
+#Named Entity Recognition  
+import nltk  
+from nltk.tokenize import word_tokenize  
+from nltk import pos_tag, ne_chunk  
+ 
+nltk.download('punkt')  
+nltk.download('averaged_perceptron_tagger')  
+nltk.download('maxent_ne_chunker')  
+nltk.download('words')  
+ 
+def ner(text):  
+    words = word_tokenize(text)  
+    tagged_words = pos_tag(words)  
+    named_entities = ne_chunk(tagged_words)  
+    return named_entities  
+ 
+text = "Apple is a company based in California, United States. Steve Jobs was one of its founders."  
+named_entities = ner(text)  
+print(named_entities)  
+ 
+Output:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Signature of  the faculty  R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |25  
+  
+ 
+EXERCISE:  
+ 
+1. Write  a python  program  for chinking using  nltk. 
+ 
+2. Use the Stanford named Entity recognizer to extract entities from the documents. Use it 
+programmatically and  output for each docum ent which named entities  it contains and  of which  type.  R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |26  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Signature of the FacultyR-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |27  
+  
+ 
+WEEK -4                       Date:  
+ 
+ 
+a.Write a python program to find Term Frequency and Inverse Document Frequency (TF -IDF).  
+ 
+ #tf-idf 
+import nltk  
+import string  
+from nltk.corpus import stopwords  
+from sklearn.feature_extraction.text import TfidfVectorizer  
+ 
+nltk.download('punkt')# Sample documents  
+documents = [  
+    "This is the first document.",  
+    "This document is the second document.",  
+    "And this is the third one.",  
+    "Is this the first document?",  
+] 
+ 
+# Tokenize and preprocess the documents  
+def preprocess_text(doc):  
+    # Tokenize the document into words  
+    tokens = nltk.word_tokenize(doc)  
+ 
+    # Remove punctuation  
+    tokens = [word for word in tokens if word not in string.punctuation]  
+ 
+    # Convert words to lowercase  
+    tokens = [word.lower() for word in tokens]  
+ 
+    # Remove stopwords  
+    stop_words = set(stopwords.words('english'))  
+    tokens = [word for word in tokens if word not in stop_words]  
+ 
+    # Join the tokens back into a single string  
+    preprocessed_doc = ' '.join(tokens)  
+ 
+    return preprocessed_doc  
+ 
+# Preprocess all documents  
+preprocessed_documents = [preprocess_text(doc) for doc in documents]  
+ 
+# Compute TF -IDF scores using scikit -learn  
+vectorizer = TfidfVectorizer()  
+tfidf_matrix = vectorizer.fit_transform(preprocessed_documents)  
+ 
+# Print TF -IDF matrix  
+print(tfidf_matrix.toarray())  
+ 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |28  
+  
+ 
+ 
+Output:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |29  
+  
+ 
+b.Write a python program for CYK parsing (Cocke -Younger -Kasami Parsing) or Chart Parsing.  
+ 
+import nltk  
+grammar = nltk.CFG.fromstring(""" S -> V NP  
+V -> 'describe' | 'present' NP -> PRP N  
+PRP -> 'your' N -> 'work'  
+""") 
+parser = nltk.ChartParser(grammar) sent = 'describe your work'.split() print (list(parser.parse(sent)))  
+ 
+ 
+Output:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Signature of the FacultyR-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |30  
+  
+ 
+EXERCISE:  
+1. Write  a python program  for CYK Parsing  by defining  your  own Grammar.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Signature of the FacultyR-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |31  
+  
+WEEK -5 Date:  
+ 
+a. Write a python program to find all unigrams, bigrams and trigrams present in the given corpus.  
+ 
+import nltk nltk.download('punkt')  
+from nltk.util import ngrams  
+samplText='this is a very good book to study' for i in range(1,4):  
+NGRAMS=ngrams(sequence=nltk.word_tokenize(samplText), n=i) for grams in NGRAMS:  
+print(grams)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |32  
+  
+b.Write a python program to find the probability of the given statement “This is my cat” by taking 
+the an exmple corpus int o consideration.  
+'This is a dog’,  
+'This is a cat',  
+'I love my cat', 
+'This is  my name’  
+ 
+ 
+def readData():  
+data = ['This is a  dog','This is a cat','I love my cat','This is my name ']  
+dat=[]  
+for i in range(len(data)):  
+for word in data[i].split():  
+dat.append(word)  
+print(dat)  
+return  dat 
+ 
+def createBigram(data):  
+listOfBigrams = []  
+bigramCounts = {}  
+unigramCounts  = {} 
+for i in range(len(data) -1): 
+if i < len(data) - 1 and data[i+1].islower():  
+listOfBigrams.append((data[i],  data[i  + 1])) 
+if (data[i], data[i+1]) in bigramCounts:  
+bigramCounts[(data[i],  data[i  + 1])] += 1 
+else: 
+bigramCounts[(data[i],  data[i  + 1])] = 1 
+ 
+ 
+if data[i] in unigramCounts:  
+unigramCounts[data[i]]  += 1 
+else: 
+unigramCounts[data[i]]  = 1 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |33  
+ return  listOfBigrams,  unigramCounts,  bigramCounts  
+ 
+ 
+ 
+def calcBigramProb(listOfBigrams, unigramCounts, bigramCounts):  
+listOfProb =  {} 
+for bigram in listOfBigrams:  
+word1  = bigram[0]  
+word2  = bigram[1]  
+listOfProb[bigram] = (bigramCounts.get(bigram))/(unigramCounts.get(word1))  
+return  listOfProb  
+ 
+ 
+if    name  == ' main  ': 
+data = readData()  
+listOfBigrams,  unigramCounts,  bigramCounts  = createBigram(data)  
+ 
+ 
+print(" \n All the possible Bigrams are ")  
+print(listOfBigrams)  
+ 
+print(" \n Bigrams along with their frequency ")  
+print(bigramCounts)  
+ 
+print(" \n Unigr ams along with their frequency ")  
+print(unigramCounts)  
+ 
+bigramProb  = calcBigramProb(listOfBigrams,  unigramCounts,  bigramCounts)  
+ 
+ 
+print(" \n Bigrams along with their probability ")  
+print(bigramProb)  
+inputList="This is my cat"  
+splt=inputList.split()  
+outputProb1  = 1 
+bilist=[]  
+bigrm=[]  R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |34  
+  
+for i in range(len(splt) - 1): 
+if i < len(splt)  - 1: 
+ 
+bilist.append((splt[i],  splt[i  + 1])) 
+ 
+ 
+print(" \n The bigrams in given sentence are ")  
+print(bilist)  
+for i in range(len(bilist)):  
+if bilist[i] in bigramProb:  
+ 
+ 
+outputProb1 *= bigramProb[bilist[i]]  
+else: 
+ 
+outputProb1  *= 0 
+print(' \n' + 'Probablility  of sentence  \"This is  my cat\" = ' + str(outputProb1) ) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                                                                      Signature of the Faculty  
+ 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)  Page |35  
+  
+WEEK – 6 Date:  
+ 
+Use the Stanford named Entity recognizer to extract entities from the documents. Use  
+ It programmaticall y and output for each document which named entities it contains and of  
+Which type.B.Tech–CSE(Computational  intelligence)   
+Page | 36    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                                                                Signature of the Faculty  
+ 
+ 
+ B.Tech–CSE(Computational  intelligence)   
+Page | 37    
+WEEK – 7 Date:  
+ 
+Choose any corpus av ailable on the internet freely. For the corpus, for each document, count how many  
+times each stop wor d occurs and find out which are  the most frequently occurring stop words. Further,  
+calculate the term  frequency and inverse document frequency as  The motivation behind this is basically  
+to find out how important a document is to a given query. F or e.g.: If the query is say: “The brown crow”. 
+“The” is less important. “Brown” and “crow” are relatively more important. Since “the” is a more 
+common word, its tf will be high. Hence we multiply it by idf, by knowing how common it is to reduce  
+ its weigh t. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  R-20  
+Page | 38    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Signature of the FacultyR-20  
+Page | 39    
+ 
+WeeK- 8                   Date: 
+ 
+a. Write the python code to perform sentiment analysis using NLP  R-20  
+Page | 40    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Signature of the Faculty  
+ 
+ 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+Page | 41 MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)   
+  
+ 
+ 
+ 
+WEEK – 9 Date:  
+ 
+ 
+ 1. Write the python code to develop Spam Filter using NLP  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ R-20 B.Tech–CSE(Computational  intelligence)  
+Page | 42 MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)   
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Signature of the Faculty  
+ R-20 B.Tech–CSE(Computational  intelligence)  
+Page | 43 MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)   
+          
+ Week -10:          Date:  
+ 
+1. Write the python code to detect Fake News using NLPR-20 B.Tech–CSE(Computational  intelligence)  
+Page | 44 MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)   
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Signature of the FacultyR-20 B.Tech–CSE(Computational  intelligence)  
+Page | 45 MallaReddyCollegeofEngineeringandTechnology(MRCETCAMPUS)   
+  
+ 
+ 
+ 
+ 
